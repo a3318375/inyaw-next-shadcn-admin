@@ -1,0 +1,32 @@
+/*.ck{*/
+/*    @apply min-h-[400px] flex-1 p-4 md:min-h-[700px] lg:min-h-[700px] focus:outline-none*/
+/*}*/
+
+.ck-editor__editable_inline {
+    @apply min-h-[400px]
+}
+
+.ck h1 {
+    @apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
+}
+.ck h2 {
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0;
+}
+.ck h3 {
+    @apply scroll-m-20 text-2xl font-semibold tracking-tight;
+}
+.ck h4 {
+    @apply scroll-m-20 text-xl font-semibold tracking-tight;
+}
+.ck h5 {
+    @apply text-sm;
+}
+.ck h6 {
+    @apply text-xs;
+}
+/*.ck p {*/
+/*    @apply leading-7 [&:not(:first-child)]:mt-6;*/
+/*}*/
+/*.ck blockquote {*/
+/*    @apply mt-6 border-l-2 pl-6 italic;*/
+/*}*/
